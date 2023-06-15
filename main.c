@@ -13,10 +13,11 @@
 int main() {
     World world = World_New(10, 10);
 
-    World_ToggleState(&world, 3, 4);
-    World_ToggleState(&world, 4, 4);
-    World_ToggleState(&world, 5, 4);
-
+    World_ToggleState(&world, 1, 1);
+    World_ToggleState(&world, 2, 2);
+    World_ToggleState(&world, 2, 3);
+    World_ToggleState(&world, 3, 2);
+    World_ToggleState(&world, 1, 3);
 
     while (1) {
         
